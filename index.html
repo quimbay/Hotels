@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <title>hotels</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/card.css">
+
 </head>
+
 <body>
-    <script type="module" src="./index.js"> </script>
+
+    <header class="header">
+        <h1 class="header_title">Bookt it!</h1>
+        <div class="filters">
+            <select class="filters_country input" id="">
+                <option value="">All Contries</option>
+                <option value="">Argentina</option>
+                <option value="">Brasil</option>
+                <option value="">Chile</option>
+                <option value="">Uruguay</option>
+
+            </select>
+            <input class="filters_input input " type="date">
+            <input class="filters_input input" type="date">
+
+            <select class="filters_price input" name="" id="filters_price">
+                <option value="all">All prices</option>
+                <option value="1">$</option>
+                <option value="2">$$</option>
+                <option value="3">$$$</option>
+                <option value="4">$$$$</option>
+
+
+
+            </select>
+            <select class="filters_room input" name="" id="filters_room">
+                <option value="all">All sizes</option>
+                <option value="Tamaño">Small</option>
+                <option value="Tamaño">Medium</option>
+                <option value="Tamaño">Large</option>
+            </select>
+                
+            <button class="filters_btn" id="filters_btn">Clear</button>
+            
+        </div>
+
+        <h2 class="header_subtitle">We have found for you...</h2>
+        <p class="header_paragraph">Small budget-priced from February 11, 2021 to February 14, 2021 in Argentina</p>
+
+    </header>
+    <main class="Main">
+        <!-- <section class="hotels" id="hotels"> -->
+            <!-- <div class="card" id="card"> -->
+
+                <!-- <h2 class="card_title">La Bamba de Areco</h2>
+                <img class="card_flag" src="./img/argentina.png">
+                <p class="card_country">Argentina</p>
+                <p class="card_roomsandprice">11 Habitaciones</p>
+                <p class="price">$$$</p> -->
+                
+                <!-- <button onclick="card_btn" id="card_btn">Boot it!</button> -->
+
+
+            <!-- </div> -->
+           
+        <!-- </section> -->
+    </main>
+       
+
+        
+       
+    
+
+    <script type="module" src="./src/index.js"></script>
+    <script type="modulo" src="./src/filters.js"></script>
 </body>
 
 </html>
