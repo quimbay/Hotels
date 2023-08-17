@@ -1,12 +1,5 @@
 import { consultarHoteles } from "./apiHotels.js";
 
-const hotels = [
-    { name: 'Hotel A', price: $, rooms: 2 },
-    { name: 'Hotel B', price: $$, rooms: 3 },
-    { name: 'Hotel C', price: $$$, rooms: 4 },
-    { name: 'Hotel D', price: $$$$, rooms: 5 },
-    
-]
 
 const filters_price = document.getElementById('filers_price')
 const filters_room = document.getElementById('filters_room')
